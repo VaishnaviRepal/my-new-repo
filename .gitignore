@@ -1,6 +1,8 @@
 .env
-**/postman/**
-**/.postman/**
+# Ignore everything in the postman folder
+postman/
+postman/**
+.postman/
 node_modules/
 .DS_Store
 package-lock.json
