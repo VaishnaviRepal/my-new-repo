@@ -1,8 +1,6 @@
 .env
-postman/
-.postman/
-postman/collections
-postman/collections/todo_test
+**/postman/**
+**/.postman/**
 node_modules/
 .DS_Store
 package-lock.json
