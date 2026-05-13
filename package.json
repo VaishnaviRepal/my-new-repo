@@ -1,12 +1,30 @@
 {
   "name": "todoapp_mongodb",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "appBackE.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon appBackE.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaishnaviRepal/my-new-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VaishnaviRepal/my-new-repo/issues"
+  },
+  "homepage": "https://github.com/VaishnaviRepal/my-new-repo#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.2"
+  }
 }
