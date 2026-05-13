@@ -1,7 +1,10 @@
 .env
 postman/
+.postman/
+postman/collections
+postman/collections/todo_test
 node_modules/
 .DS_Store
 package-lock.json
 CodeNotes.txt
-.postman/
+
